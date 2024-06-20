@@ -23,7 +23,7 @@ WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
 WebUI.click(findTestObject('Object Repository/Cura/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars'))
 
-WebUI.click(findTestObject('Object Repository/Cura/Page_CURA Healthcare Service/a_Login'))
+WebUI.click(findTestObject('Object Repository/Cura/Page_CURA Healthcare Service/a_Login_a_Login_a_Login_a_Login_a_Login_a_Login_a_Login_a_Login_a_Login_a_Login_a_Login_a_Login_a_L'))
 
 WebUI.setText(findTestObject('Object Repository/Cura/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
 

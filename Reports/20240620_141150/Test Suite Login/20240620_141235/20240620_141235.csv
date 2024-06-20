@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite Login,Chrome 126.0.0.0,,,20-06-2024 14:12:43,20-06-2024 14:13:10,27.399s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 126.0.0.0,,,20-06-2024 14:12:43,20-06-2024 14:13:01,17.378s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,20-06-2024 14:12:44,20-06-2024 14:12:49,5.283s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 126.0.0.0,,,20-06-2024 14:12:49,20-06-2024 14:12:54,4.816s,PASSED
+"click(findTestObject(""Object Repository/Cura/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",Chrome 126.0.0.0,,,20-06-2024 14:12:54,20-06-2024 14:12:55,0.672s,PASSED
+"click(findTestObject(""Object Repository/Cura/Page_CURA Healthcare Service/a_Login""))",Chrome 126.0.0.0,,,20-06-2024 14:12:55,20-06-2024 14:12:56,1.350s,PASSED
+"setText(findTestObject(""Object Repository/Cura/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 126.0.0.0,,,20-06-2024 14:12:56,20-06-2024 14:12:57,0.967s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Cura/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 126.0.0.0,,,20-06-2024 14:12:57,20-06-2024 14:12:57,0.527s,PASSED
+"click(findTestObject(""Object Repository/Cura/Page_CURA Healthcare Service/button_Login""))",Chrome 126.0.0.0,,,20-06-2024 14:12:57,20-06-2024 14:13:01,3.282s,PASSED
+,,,,,,,
+Test Cases/Make Appointment,Chrome 126.0.0.0,,,20-06-2024 14:13:01,20-06-2024 14:13:08,7.506s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Cura/Page_CURA Healthcare Service/Tokyo""), ""Hongkong CURA Healthcare Center"", true)",Chrome 126.0.0.0,,,20-06-2024 14:13:01,20-06-2024 14:13:02,1.512s,PASSED
+"click(findTestObject(""Object Repository/Cura/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f""))",Chrome 126.0.0.0,,,20-06-2024 14:13:02,20-06-2024 14:13:03,0.412s,PASSED
+"click(findTestObject(""Object Repository/Cura/Page_CURA Healthcare Service/input_Medicaid_programs""))",Chrome 126.0.0.0,,,20-06-2024 14:13:03,20-06-2024 14:13:03,0.403s,PASSED
+"click(findTestObject(""Object Repository/Cura/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34""))",Chrome 126.0.0.0,,,20-06-2024 14:13:03,20-06-2024 14:13:04,0.415s,PASSED
+"click(findTestObject(""Object Repository/Cura/Page_CURA Healthcare Service/td_20""))",Chrome 126.0.0.0,,,20-06-2024 14:13:04,20-06-2024 14:13:04,0.628s,PASSED
+"setText(findTestObject(""Object Repository/Cura/Page_CURA Healthcare Service/textarea_Comment_comment""), ""Testing"")",Chrome 126.0.0.0,,,20-06-2024 14:13:04,20-06-2024 14:13:05,0.977s,PASSED
+"click(findTestObject(""Object Repository/Cura/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 126.0.0.0,,,20-06-2024 14:13:05,20-06-2024 14:13:08,2.955s,PASSED
+,,,,,,,
+Test Cases/Logout,Chrome 126.0.0.0,,,20-06-2024 14:13:08,20-06-2024 14:13:10,2.151s,PASSED
+"click(findTestObject(""Object Repository/Cura/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",Chrome 126.0.0.0,,,20-06-2024 14:13:08,20-06-2024 14:13:09,0.370s,PASSED
+"click(findTestObject(""Object Repository/Cura/Page_CURA Healthcare Service/a_Logout""))",Chrome 126.0.0.0,,,20-06-2024 14:13:09,20-06-2024 14:13:10,1.647s,PASSED
