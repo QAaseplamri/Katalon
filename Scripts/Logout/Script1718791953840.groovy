@@ -21,3 +21,5 @@ WebUI.click(findTestObject('Object Repository/Cura/Page_CURA Healthcare Service/
 
 WebUI.click(findTestObject('Object Repository/Cura/Page_CURA Healthcare Service/a_Logout'))
 
+WebUI.verifyElementText(findTestObject('Cura/Page_CURA Healthcare Service/h1_CURA Healthcare Service'), 'CURA Healthcare Service')
+

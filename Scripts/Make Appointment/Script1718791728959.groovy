@@ -17,8 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Cura/Page_CURA Healthcare Service/Tokyo'), 
-    'Hongkong CURA Healthcare Center', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Cura/Page_CURA Healthcare Service/Tokyo'), 'Hongkong CURA Healthcare Center', 
+    true)
 
 WebUI.click(findTestObject('Object Repository/Cura/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f'))
 
@@ -31,4 +31,6 @@ WebUI.click(findTestObject('Object Repository/Cura/Page_CURA Healthcare Service/
 WebUI.setText(findTestObject('Object Repository/Cura/Page_CURA Healthcare Service/textarea_Comment_comment'), 'Testing')
 
 WebUI.click(findTestObject('Object Repository/Cura/Page_CURA Healthcare Service/button_Book Appointment'))
+
+WebUI.verifyElementText(findTestObject('Cura/Page_CURA Healthcare Service/h2_Appointment Confirmation'), 'Appointment Confirmation')
 
