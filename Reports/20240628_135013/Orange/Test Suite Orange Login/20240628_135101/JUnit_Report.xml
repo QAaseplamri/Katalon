@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite Orange Login" time="30.625" tests="1" failures="0" errors="0">
+   <testsuite name="Test Suite Orange Login" tests="1" failures="0" errors="0" time="30.625" skipped="0" timestamp="28-06-2024T13:51:11" hostname="DESKTOP-SQ56SGT$ - DESKTOP-SQ56SGT" id="Test Suites/Orange/Test Suite Orange Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\0767\\git\\Katalon\\Reports\\20240628_135013\\Orange\\Test Suite Orange Login\\20240628_135101"/>
+         <property name="logFiles" value="C:\\Users\\0767\\git\\Katalon\\Reports\\20240628_135013\\Orange\\Test Suite Orange Login\\20240628_135101\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DESKTOP-SQ56SGT$ - DESKTOP-SQ56SGT"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="172.16.0.2"/>
+         <property name="sessionId" value="8ddcc3af546688915d229a02459db6e8"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Orange/Orange Login" time="30.282" classname="Test Cases/Orange/Orange Login" status="PASSED">
+         <system-out><![CDATA[28-06-2024T13:51:11 - [TEST_CASE][PASSED] - Test Cases/Orange/Orange Login: Test Cases/Orange/Orange Login
+
+28-06-2024T13:51:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-06-2024T13:51:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-06-2024T13:51:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-06-2024T13:51:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-06-2024T13:51:18 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+28-06-2024T13:51:36 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+28-06-2024T13:51:36 - [TEST_STEP][PASSED] - switchToWindowTitle("OrangeHRM"): Switched to window with title: 'OrangeHRM'
+
+28-06-2024T13:51:36 - [MESSAGE][PASSED] - Switched to window with title: 'OrangeHRM'
+
+28-06-2024T13:51:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Orange/Page_OrangeHRM/input_Username_username"), "1234567890"): Text '1234567890' is set on object 'Object Repository/Orange/Page_OrangeHRM/input_Username_username'
+
+28-06-2024T13:51:39 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/Orange/Page_OrangeHRM/input_Username_username'
+
+28-06-2024T13:51:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Orange/Page_OrangeHRM/input_Password_password"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/Orange/Page_OrangeHRM/input_Password_password'
+
+28-06-2024T13:51:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Orange/Page_OrangeHRM/input_Password_password'
+
+28-06-2024T13:51:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Orange/Page_OrangeHRM/button_Login")): Object: 'Object Repository/Orange/Page_OrangeHRM/button_Login' is clicked on
+
+28-06-2024T13:51:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Orange/Page_OrangeHRM/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[28-06-2024T13:51:11 - [TEST_SUITE][PASSED] - Test Suite Orange Login: Test Cases/Orange/Orange Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

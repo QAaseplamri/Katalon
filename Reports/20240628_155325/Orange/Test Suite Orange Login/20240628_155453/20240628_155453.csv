@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite Orange Login,Chrome 126.0.0.0,,,28-06-2024 15:55:01,28-06-2024 15:55:53,52.344s,PASSED
+,,,,,,,
+Test Cases/Orange/Orange Login,Chrome 126.0.0.0,,,28-06-2024 15:55:01,28-06-2024 15:55:53,52.043s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,28-06-2024 15:55:01,28-06-2024 15:55:09,7.230s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 126.0.0.0,,,28-06-2024 15:55:09,28-06-2024 15:55:44,35.551s,PASSED
+"switchToWindowTitle(""OrangeHRM"")",Chrome 126.0.0.0,,,28-06-2024 15:55:44,28-06-2024 15:55:44,0.042s,PASSED
+"setText(findTestObject(""Object Repository/Orange/Page_OrangeHRM/input_Username_username""), ""1234567890"")",Chrome 126.0.0.0,,,28-06-2024 15:55:44,28-06-2024 15:55:48,3.531s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Orange/Page_OrangeHRM/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 126.0.0.0,,,28-06-2024 15:55:48,28-06-2024 15:55:48,0.374s,PASSED
+"click(findTestObject(""Object Repository/Orange/Page_OrangeHRM/button_Login""))",Chrome 126.0.0.0,,,28-06-2024 15:55:48,28-06-2024 15:55:53,4.881s,PASSED
